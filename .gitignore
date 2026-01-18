@@ -1,47 +1,11 @@
-# --- JANGAN UPLOAD FILE INI ---
-
-# File rahasia
+# Hanya ignore .env (file rahasia), TIDAK termasuk .env.example
 .env
-.env.example
 
-# Data runtime / cache
+# Ignore file runtime
 whale_seen_fingerprints.json
-whale_activity_seen.json
-whale_positions_last.json
-whale_seen_txs.json
-whale_tracker_graphql.json
-whale_tx_hashes.json
-whale_activity_last.json
-
-# File sementara / backup / tidak penting
-*.tmp
-*.bak
-*.log
-notes.txt
-backup/
-temp/
-
-# Folder cache Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Editor/IDE files
-.vscode/
-.idea/
-.DS_Store
-
-# File JavaScript (jika tidak perlu)
-*.js
 *.json
 
-# File yang tidak kamu gunakan aktif
-follow_whale_activity.py
-multi_whale_telegram.py
-polymarket_whale_det.py
-whale_activity_api.py
-whale_activity_selenium.py
-whale_buy_only_single.py
-whale_positions_hash.py
-whale_positions_buy.js
-whale_tracker.py
+# Cache & lainnya
+__pycache__/
+*.pyc
+.vscode/
